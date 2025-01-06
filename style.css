@@ -5,14 +5,33 @@
     box-sizing: border-box;
   }
   
+
   body {
+    position: relative ;
     background-color: hsl(185, 75%, 39%);
     font-family: 'Kumbh Sans', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100vw;
     padding: 20px;
+  }
+
+  .bg-top {
+     position :absolute;
+     width: 550px;
+     height: 455px;
+     top: -10vw;
+     left: 0;
+  }
+
+  .bg-bottom {
+    position :absolute;
+     width: 550px;
+     height: 455px;
+     bottom: -15vw;
+     right: -2vw;
   }
   
   .card {
@@ -86,4 +105,5 @@
     font-size: 12px;
     margin-top: 5px;
   }
+  
   
