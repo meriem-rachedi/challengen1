@@ -28,13 +28,15 @@
 
   .bg-bottom {
     position :absolute;
-     width: 550px;
-     height: 455px;
-     bottom: -15vw;
-     right: -2vw;
+    z-index: 6;
+    width: 550px;
+    height: 455px;
+    bottom: -15vw;
+    right: -2vw;
   }
   
   .card {
+    z-index: 10;
     background-color: #fff;
     border-radius: 10px;
     overflow: hidden;
